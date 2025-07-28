@@ -41,19 +41,7 @@
 		justify-content: center;
 		position: relative;
 
-		/* IF YOU DON'T WANT THE SCANLINE, REMOVE LINES BELOW UNTIL FINISH */
-		background:
-		  linear-gradient(to right, white 10px, transparent 10px) 0 0,
-		  linear-gradient(to right, white 10px, transparent 10px) 0 100%,
-		  linear-gradient(to left, white 10px, transparent 10px) 100% 0,
-		  linear-gradient(to left, white 10px, transparent 10px) 100% 100%,
-		  linear-gradient(to bottom, white 10px, transparent 10px) 0 0,
-		  linear-gradient(to bottom, white 10px, transparent 10px) 100% 0,
-		  linear-gradient(to top, white 10px, transparent 10px) 0 100%,
-		  linear-gradient(to top, white 10px, transparent 10px) 100% 100%;
-		background-repeat: no-repeat;
-		background-size: 40px 40px;
-		/* FINISH REMOVING LINES HERE */
+
       }
 
       #custom-scanning-overlay.hidden {
@@ -95,7 +83,6 @@
 	<div id="custom-scanning-overlay" class="">
 		<div class="inner">
 			<img src="images/target.png">
-			<div class="scanline"></div><!-- IF YOU DON'T WANT THE SCANLINE, REMOVE THIS LINE -->
 		</div>
     </div>
 	
